@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.section{
+    background-image: url('../images/banner/banner3.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+}
+.section__div{
+    display: flex;
+    width: 525px;
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: right;
+    padding: 216px 100px 164px 1150px;
+}
+
+.section__div-title{
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    margin: 10px;
+}
+.section__div-description{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+}
+.contact-btn button{
+    color: #005FAC;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+.btn{
+    padding: 10px;
+    border: none;
+}
+
+/* section 2 starts form here */
+.section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 250px;
+}
+
+.section2__div{
+    display: flex;
+    width: 426px;
+    flex-direction: column;
+}
+.section2__div-title{
+    color: var(--dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+}
+.section2__div-description{
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+ul li{
+    font-weight: 400;
+    color:  #444343;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+/* plane style starts form here */
+
+
+.plans__heading{
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plan-description{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.plans{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 150px ;
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+}
+.plan{
+    text-align: center;
+}
+.mindset{
+    border-radius: 8px;
+    padding: 69px 617px 147px 295px;
+    color: rebeccapurple,;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(../images/watch.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 300px;
+}
+.mindset__div{
+    width: 70%;
+   
+}
+.mindset-heading{
+    color: #413939;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+.mindset .btn{
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
