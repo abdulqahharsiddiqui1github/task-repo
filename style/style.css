@@ -15,15 +15,14 @@ html{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: cover;
+    background-position: left;
+    overflow:hidden;
 }
 .section__div{
-    display: flex;
-    width: 525px;
-    flex-direction: column;
+    width: 30%;
     flex-shrink: 0;
     text-align: right;
-    padding: 216px 100px 164px 1150px;
+    padding: 5% 20% 30% 60%;
 }
 
 .section__div-title{
@@ -42,24 +41,32 @@ html{
     font-weight: 400;
     margin: 10px;
 }
-.contact-btn button{
-    color: #005FAC;
-    text-align: right;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 10px;
-}
 .btn{
     padding: 10px;
     border: none;
+    background-color: rgb(81, 255, 0);
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    text-align: center;
+}
+.btn:hover{
+    border: none;
+    background-color: rgba(255, 0, 0, 0.562);
+    color: white;
 }
 
 /* section 2 starts form here */
 .section2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 250px;
+    margin: 300px 50px;
+    gap: 100px;
 }
 
 .section2__div{
@@ -102,9 +109,10 @@ ul li{
 }
 .plans{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
     justify-content: center;
-    gap: 150px ;
+    gap: 100px ;
     width: 80%;
     margin: 30px auto;
     padding: 10px;
@@ -113,66 +121,49 @@ ul li{
     text-align: center;
 }
 .mindset{
-    border-radius: 8px;
-    padding: 69px 617px 147px 295px;
-    color: rebeccapurple,;
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(../images/watch.png);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 200px 100px;
+    width: 60%;
+    margin: 150px auto 150px;
+    padding: 30px 100px;
 }
 .mindset-heading{
     color: #413939;
     font-size: 30px;
     font-weight: 700;
     text-align: left;
+    width: 500px;
 }
-.mindset .btn{
+/* .mindset .btn{
     width: 200px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
-    background: #FFF;
+    background-color: #b91212;
     font-weight: 800;
     font-size: 30px;
     text-transform: capitalize;
     margin-top: 20px;
-}
+} */
+
+/* contact style here */
 .contacts{
     display: flex;
-    justify-content: space-between;
-    margin: 50vh 0;
+    justify-content: space-around;
     align-items: center;
-    gap: 200px;
     padding: 100px;
-    margin: 100px 250px;
 }
 .contact1__div{
-    width: 50%;
+    width: 30%;
+    padding: 30px;
 }
 .contact1__div p{
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
-.contact2__div{
-    width: 50%;
-}
-.contact2__div > button{
-    width: 150px;
-    background-color: lightgrey;
-}
- input{
-    display: block;
-    color: #140f0f;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    margin: 30px 0;
-    width: 50%;
-    padding: 20px;
-}
-h3{
-    color: #353535;
-    font-size: 25px;
-    font-weight: 600;
+input{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
