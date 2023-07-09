@@ -3,9 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practce</title>
+    <title> practce </title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            position: relative;
+            margin: 50px 0;
+        }
+        .text{
+            visibility: hidden;
+            width: 200px;
+            background-color: red;
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+            padding: 10px;
+            border-radius: 5px;
+            position: absolute;
+            top: 30px;
+            left: 20px;
+        }
+        a:hover .text{
+            visibility: visible;
+        }
+        .div2{
+            width: 500px;
+            height: 100px;
+            background-color: lightgreen;
+            padding: 10px;
+            border: 2px solid red;
+            overflow: scroll;
+        }
+        p{
+            width: 600px;
+        }
+
+
+
+
+
+
+
+
+        .description{
+           display: none;
+        }
+        a:hover .description{
+            display:block;
+        }
+        
+
+
+    </style>
 </head>
 <body>
-    
+    <div>
+        <a  class="a" href="">click here
+            <span class="text">abdul qahhar siddiqui</span>
+        </a> 
+    </div>
+    <div class="div2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat volupt Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, quas. Accusantium aspernatur, officia minus saepe dolorum ad necessitatibus pariatur . Nobis, error voluptatibus.</p>
+    </div>
+
+
+    <abbr title="abdul qahhar siddiqui">A.B.C</abbr>
+    <br>
+    <time datetime="3 jun 2002">june 19,  20023</time>
+<br>
+    <bdo dir="rtl">assalamuyalikum</bdo>
+    <p>H<sub>2</sub>O</p>
+    <p>a <sup>2</sup>+2ab+b <sup>2</sup></p>
+
+    <label for="id">
+        progress
+        <meter id="id" value=".5"></meter>
+    </label>
+    <progress>
+
+    </progress>
+
+    <details>
+        <summary>click here</summary>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat quam sed ea facilis amet maiores reprehenderit numquam consectetur aperiam? Explicabo velit magni vel laborum eaque amet id esse sit omnis!</p>
+    </details>
+
+
+    <div>
+        <a href="#">home</a>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, consequuntur? Vel iste laudantium itaque a nesciunt unde ut laboriosam amet?</p>
+    </div>
+
 </body>
 </html>
