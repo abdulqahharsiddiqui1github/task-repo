@@ -98,7 +98,70 @@ span{
 /* benner section end here */
 
 
+/* about me starts from here */
+.about{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+    /* gap: 200px; */
+}
+.about-description{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.about-div2 > ul{
+    padding: 0 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.about-div2{
+    margin-left: 200px;
+}
+.about-div1{
+    width: 50%;
+}
 
 section{
     margin-top: 300px;
+}
+/* my plans starts from here */
+.my-plans{
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.plan{
+    text-align: center;
+}
+.plans-container-heading{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 55px;
+}
+.plans__heading{
+    height: 40px;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content{
+    width: 50%;
+
+}
+.contact-now{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-now > input{
+    padding: 10px;
 }
